@@ -4,7 +4,7 @@ import "./style.css";
 
 
 const Main = () => {
-  const baseUrl = 'http://localhost:3007/api/db'
+  const baseUrl = '/api/db'
   const [ data, setData ] = useState([])
 
   useEffect(() => {

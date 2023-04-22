@@ -1,7 +1,9 @@
+
 const cors = require('cors')
 const express = require('express')
 const app = express()
 let db = require('./db.json')
+app.use(express.static('build'))
 app.use(cors())
 app.use(express.static('build'))
 app.use(express.json())
@@ -18,7 +20,7 @@ app.put('/api/db/:id', async (request,response) => {
   response.status(201).json(db)
 })
 
-const PORT = process.env.PORT || 3007
+const PORT = 8080
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
