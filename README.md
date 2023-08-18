@@ -1,4 +1,2 @@
-# FSO
-Full Stack Open - Deep Dive Into Modern Web Development
-
-One more line
+# Take home assignment
+The goal is to create a dynamic table with every input being updated on the server.
