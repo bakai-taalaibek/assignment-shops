@@ -1,2 +1,2 @@
 # FSO
-Create a dynamic table with every input being updated on the server.
+Full Stack Open - Deep Dive Into Modern Web Development
